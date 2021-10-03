@@ -1,19 +1,21 @@
 # Awesome Weak-Shot Learning  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of resources including papers, datasets, and relevant links pertaining to weak-shot learning. **In weak-shot learning, all categories are split into non-overlapped base categories and novel categories, in which base categories have full annotations while novel categories only have weak annotations.** In different tasks, weak annotation could be provided in different forms, e.g., noisy label for classification, image label for object detection, image label/bounding box for segmentation. 
+In **weak-shot learning**, all categories are split into non-overlapped **base categories** and **novel categories**, in which base categories have **full annotations** while novel categories only have **weak annotations**. In different tasks, weak annotation could be provided in different forms, e.g., noisy label for classification, image label for object detection, image label/bounding box for segmentation. 
 
-**The comparison between weak-shot learning and zero/few-shot learning is illustrated below.** In all three settings, all categories are split into non-overlapped base categories and novel categories. In all three settings, base categories have abundant fully-annotated training samples. In zero-shot learning, novel categories have no training samples, so class-level representations are required to bridge the gap between base categories and novel categories. In few-shot learning, novel categories have limited training samples. In weak-shot leanring, novel categories have abundant weakly-annotated training samples. 
-<img src='https://bcmi.sjtu.edu.cn/home/niuli/images/project_weak_shot.jpg' align="center" width=512>
+The comparison between **weak-shot learning and zero/few-shot learning** is illustrated below. In all three settings, all categories are split into non-overlapped base categories and novel categories. In all three settings, base categories have abundant fully-annotated training samples. In zero-shot learning, novel categories have no training samples, so class-level representations are required to bridge the gap between base categories and novel categories. In few-shot learning, novel categories have limited training samples. In weak-shot leanring, novel categories have abundant weakly-annotated training samples. 
+
+<img src='https://bcmi.sjtu.edu.cn/home/niuli/images/project_weak_shot_small.jpg' align="center" width=512>
+
 ## Contributing
 
 Contributions are welcome.  If you wish to contribute, feel free to send a pull request. If you have suggestions for new sections to be included, please raise an issue and discuss before sending a pull request.
 
 ## Table of Contents
 + [Survey](#Survey)
-+ [Weak-Shot Classification](#Weak-Shot Classification)
-+ [Weak-Shot Object Detection](#Weak-Shot Detection)
-+ [Weak-Shot Semantic Segmentation](#Weak-Shot Semantic Segmentation)
-+ [Weak-Shot Instance Segmentation](#Weak-Shot Instance Segmentation)
++ [Weak-Shot Classification](#Weak-Shot-Classification)
++ [Weak-Shot Object Detection](#Weak-Shot-Detection)
++ [Weak-Shot Semantic Segmentation](#Weak-Shot-Semantic-Segmentation)
++ [Weak-Shot Instance Segmentation](#Weak-Shot-Instance-Segmentation)
 
 ## Survey
 + Li Niu: "*Not Few, But Weak: A Survey on Weak-Shot Learning.*" 
