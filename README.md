@@ -18,13 +18,13 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 + [Weak-Shot Instance Segmentation](#Weak-Shot-Instance-Segmentation)
 
 ## Survey
-+ Li Niu: "*Not Few, But Weak: A Survey on Weak-Shot Learning.*" 
++ Li Niu: "*Weak Novel Categories without Tears: A Survey on Weak-Shot Learning.*" 
 
 ## Weak-Shot Classification
 **Base category: clean label; Novel category: noisy label**
 + Junjie Chen, Li Niu, Liu Liu, Liqing Zhang: "*Weak-shot Fine-grained Classification via Similarity Transfer.*" NeurIPS (2021) [[arXiv]](https://arxiv.org/pdf/2009.09197.pdf) [[code]](https://github.com/bcmi/SimTrans-Weak-Shot-Classification)
 
-## Weak-Shot Detection
+## Weak-Shot Object Detection
 **Base category: bounding box; Novel category: image label**
 + Yan Li, Junge Zhang, Kaiqi Huang, Jianguo Zhang: "*Mixed Supervised Object Detection with Robust Objectness Transfer.*" T-PAMI (2018) [[paper]](https://ieeexplore.ieee.org/document/8304628) [[arXiv]](https://arxiv.org/pdf/1802.09778.pdf) 
 + Jason Kuen, Federico Perazzi, Zhe Lin, Jianming Zhang, Yap-Peng Tan: "*Scaling Object Detection by Transferring Classification Weights.*" ICCV (2019) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kuen_Scaling_Object_Detection_by_Transferring_Classification_Weights_ICCV_2019_paper.pdf) [[code]](https://github.com/xternalz/AE-WTN)
