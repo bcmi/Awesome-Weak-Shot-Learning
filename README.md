@@ -34,7 +34,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 
 ## Weak-Shot Semantic Segmentation
 **Base category: semantic mask; Novel category: image label**
-+ Siyuan Zhou, Li Niu, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation by Transferring Semantic Affinity and Boundary.*" 
++ Siyuan Zhou, Li Niu, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation by Transferring Semantic Affinity and Boundary.*" arXiv preprint arXiv:2110.01519  (2021). [[arXiv]](https://arxiv.org/pdf/2110.01519.pdf)
 
 ## Weak-Shot Instance Segmentation
 **Base category: instance mask; Novel category: bounding box**
