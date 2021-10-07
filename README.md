@@ -18,7 +18,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 + [Weak-Shot Instance Segmentation](#Weak-Shot-Instance-Segmentation)
 
 ## Survey
-+ Li Niu: "*Weak Novel Categories without Tears: A Survey on Weak-Shot Learning.*" 
++ Li Niu: "*Weak Novel Categories without Tears: A Survey on Weak-Shot Learning.*" arXiv preprint arXiv:2110.02651 (2021).  [[arXiv]](https://arxiv.org/pdf/2110.02651.pdf)
 
 ## Weak-Shot Classification
 **Base category: clean label; Novel category: noisy label**
