@@ -26,6 +26,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 
 ## Weak-Shot Object Detection
 **Base category: bounding box; Novel category: image label**
++ Judy Hoffman, Sergio Guadarrama, Eric Tzeng, Ronghang Hu, Jeff Donahue, Ross Girshick, Trevor Darrell, Kate Saenko: "*LSDA: Large Scale Detection Through Adaptation.*" NIPS (2014) [[paper]](https://proceedings.neurips.cc/paper/2014/file/09fb05dd477d4ae6479985ca56c5a12d-Paper.pdf) [[code]](https://github.com/jhoffman/lsda)
 + Yan Li, Junge Zhang, Kaiqi Huang, Jianguo Zhang: "*Mixed Supervised Object Detection with Robust Objectness Transfer.*" T-PAMI (2018) [[paper]](https://ieeexplore.ieee.org/document/8304628) [[arXiv]](https://arxiv.org/pdf/1802.09778.pdf) 
 + Jason Kuen, Federico Perazzi, Zhe Lin, Jianming Zhang, Yap-Peng Tan: "*Scaling Object Detection by Transferring Classification Weights.*" ICCV (2019) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kuen_Scaling_Object_Detection_by_Transferring_Classification_Weights_ICCV_2019_paper.pdf) [[code]](https://github.com/xternalz/AE-WTN)
 + Yuanyi Zhong, Jianfeng Wang, Jian Peng, Lei Zhang: "*Boosting Weakly Supervised Object Detection with Progressive Knowledge Transfer.*" ECCV (2020) [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123710613.pdf) [[arXiv]](https://arxiv.org/pdf/2007.07986.pdf) [[code]](https://github.com/mikuhatsune/wsod_transfer)
@@ -38,6 +39,7 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 
 ## Weak-Shot Instance Segmentation
 **Base category: instance mask; Novel category: bounding box**
++ Ronghang Hu, Piotr Dollar, Kaiming He, Trevor Darrell, Ross Girshick: "*Learning to segment every thing.*" CVPR (2018) [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Learning_to_Segment_CVPR_2018_paper.pdf) [[code]](https://github.com/ronghanghu/seg_every_thing)
 + Weicheng Kuo, Anelia Angelova, Jitendra Malik, Tsung-Yi Lin: "*ShapeMask: Learning to Segment Novel Objects by Refining Shape Priors.*" ICCV (2019) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kuo_ShapeMask_Learning_to_Segment_Novel_Objects_by_Refining_Shape_Priors_ICCV_2019_paper.pdf) [[arXiv]](https://arxiv.org/pdf/1904.03239.pdf)
 
 
