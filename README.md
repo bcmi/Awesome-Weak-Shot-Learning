@@ -37,7 +37,7 @@ Knowledge Transfer.*" CVPR (2016) [[paper]](https://openaccess.thecvf.com/conten
 + Yuanyi Zhong, Jianfeng Wang, Jian Peng, Lei Zhang: "*Boosting Weakly Supervised Object Detection with Progressive Knowledge Transfer.*" ECCV (2020) [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123710613.pdf) [[arXiv]](https://arxiv.org/pdf/2007.07986.pdf) [[code]](https://github.com/mikuhatsune/wsod_transfer)
 + Ye Guo, Yali Li, Shengjin Wang: "*CS-R-FCN: Cross-supervised Learning for Large-scale Object Detection.*" ICASSP (2020) [[arXiv]](https://arxiv.org/pdf/1905.12863.pdf)
 + Zitian Chen, Zhiqiang Shen, Jiahui Yu, Erik Learned-Miller: "*Cross-Supervised Object Detection.*" arXiv preprint arXiv:2006.15056 (2020). [[arXiv]](https://arxiv.org/pdf/2006.15056.pdf)
-+ Yan Liu, Zhijie Zhang, Li Niu, Junjie Chen, Liqing Zhang: "*Mixed Supervised Object Detection by Transferring Mask Prior and Semantic Similarity.*" NeurIPS (2021) [[code]](https://github.com/bcmi/TraMaS-Weak-Shot-Object-Detection)
++ Yan Liu, Zhijie Zhang, Li Niu, Junjie Chen, Liqing Zhang: "*Mixed Supervised Object Detection by Transferring Mask Prior and Semantic Similarity.*" NeurIPS (2021) [[paper]](https://arxiv.org/pdf/2110.14191.pdf) [[code]](https://github.com/bcmi/TraMaS-Weak-Shot-Object-Detection)
 
 
 ## Weak-Shot Semantic Segmentation
