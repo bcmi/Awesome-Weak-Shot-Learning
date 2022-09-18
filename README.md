@@ -43,6 +43,7 @@ Knowledge Transfer.*" CVPR (2016) [[paper]](https://openaccess.thecvf.com/conten
 ## Weak-Shot Semantic Segmentation
 **Base category: semantic mask; Novel category: image label** (weak-shot)
 + Siyuan Zhou, Li Niu, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation by Transferring Semantic Affinity and Boundary.*" arXiv preprint arXiv:2110.01519  (2021). [[arXiv]](https://arxiv.org/pdf/2110.01519.pdf)
++ Junjie Chen, Li Niu, Siyuan Zhou, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation via Dual Similarity Transfer.*" NeurIPS (2022) [[code]](https://github.com/bcmi/SimFormer-Weak-Shot-Semantic-Segmentation)
 
 ## Weak-Shot Instance Segmentation
 **Base category: instance mask; Novel category: bounding box** (partially-supervised)
@@ -51,7 +52,7 @@ Knowledge Transfer.*" CVPR (2016) [[paper]](https://openaccess.thecvf.com/conten
 + Yanzhao Zhou, Xin Wang, Jianbin Jiao, Trevor Darrell, Fisher Yu: "*Learning Saliency Propagation for Semi-Supervised Instance Segmentation.*" CVPR (2020) [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhou_Learning_Saliency_Propagation_for_Semi-Supervised_Instance_Segmentation_CVPR_2020_paper.pdf) [[code]](https://github.com/ucbdrive/ShapeProp)
 + Qi Fan, Lei Ke, Wenjie Pei, Chi-Keung Tang, Yu-Wing Tai: "*Commonality-Parsing Network across Shape and Appearance for Partially Supervised Instance Segmentation.*" ECCV (2020) [[arXiv]](https://arxiv.org/pdf/2007.12387.pdf) [[code]](https://github.com/fanq15/CPMask)
 + David Biertimpel, Sindi Shkodrani, Anil S. Baslamisli, Nora Baka: "*Prior to Segment: Foreground Cues for Weakly Annotated Classes in Partially Supervised Instance Segmentation.*" ICCV (2021) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Biertimpel_Prior_to_Segment_Foreground_Cues_for_Weakly_Annotated_Classes_in_ICCV_2021_paper.pdf) [[arXiv]](https://arxiv.org/pdf/2011.11787.pdf) [[code]](https://github.com/dbtmpl/OPMask)
-+ Vighnesh Birodkar, Zhichao Lu, Siyang Li, Vivek Rathod, Jonathan Huang: "*The Surprising Impact of Mask-head Architecture on Novel Class Segmentation.*" arXiv preprint arXiv:2104.00613 (2021) [[arXiv]](https://arxiv.org/pdf/2104.00613.pdf) [[code]](https://google.github.io/deepmac/#code)
++ Vighnesh Birodkar, Zhichao Lu, Siyang Li, Vivek Rathod, Jonathan Huang: "*The Surprising Impact of Mask-head Architecture on Novel Class Segmentation.*" ICCV (2021) [[paper]](http://openaccess.thecvf.com/content/ICCV2021/papers/Birodkar_The_Surprising_Impact_of_Mask-Head_Architecture_on_Novel_Class_Segmentation_ICCV_2021_paper.pdf) [[code]](https://google.github.io/deepmac/#code)
 
 
 
