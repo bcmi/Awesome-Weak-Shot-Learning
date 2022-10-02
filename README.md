@@ -42,8 +42,8 @@ Knowledge Transfer.*" CVPR (2016) [[paper]](https://openaccess.thecvf.com/conten
 
 ## Weak-Shot Semantic Segmentation
 **Base category: semantic mask; Novel category: image label** (weak-shot)
-+ Siyuan Zhou, Li Niu, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation by Transferring Semantic Affinity and Boundary.*" arXiv preprint arXiv:2110.01519  (2021). [[arXiv]](https://arxiv.org/pdf/2110.01519.pdf)
 + Junjie Chen, Li Niu, Siyuan Zhou, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation via Dual Similarity Transfer.*" NeurIPS (2022) [[code]](https://github.com/bcmi/SimFormer-Weak-Shot-Semantic-Segmentation)
++ Siyuan Zhou, Li Niu, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation by Transferring Semantic Affinity and Boundary.*" BMVC (2022) [[arXiv]](https://arxiv.org/pdf/2110.01519.pdf) 
 
 ## Weak-Shot Instance Segmentation
 **Base category: instance mask; Novel category: bounding box** (partially-supervised)
