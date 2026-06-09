@@ -4,7 +4,10 @@ In **weak-shot learning**, all categories are split into non-overlapped **base c
 
 The comparison between **weak-shot learning and zero/few-shot learning** is illustrated below. In all three settings, all categories are split into non-overlapped base categories and novel categories. In all three settings, base categories have abundant fully-annotated training samples. In zero-shot learning, novel categories have no training samples, so class-level representations are required to bridge the gap between base categories and novel categories. In few-shot learning, novel categories have limited training samples. In weak-shot leanring, novel categories have abundant weakly-annotated training samples. 
 
-<img src='https://bcmi.sjtu.edu.cn/home/niuli/images/project_weak_shot_small.jpg' align="center" width=512>
+<img src='weak_shot_paradigm.png' align="center" width=80%>
+
+Existing weak-shot learning methods can be roughly categorized into three groups: 1) transfer the category-invariant target; 2) transfer the mapping from weak annotation to full annotation; 3) decompose the entire task into a weakly-supervised subtask and a fully-supervised subtask.
+
 
 ## Contributing
 
@@ -16,13 +19,16 @@ Contributions are welcome.  If you wish to contribute, feel free to send a pull 
 + [Weak-Shot Object Detection](#Weak-Shot-Detection)
 + [Weak-Shot Semantic Segmentation](#Weak-Shot-Semantic-Segmentation)
 + [Weak-Shot Instance Segmentation](#Weak-Shot-Instance-Segmentation)
++ [Weak-Shot Gait Recognition](#Weak-Shot-Gait-Recognition)
++ [Weak-Shot Pose Estimation](#Weak-Shot-Pose-Estimation)
++ [Weak-Shot Graph Learning](#Weak-Shot-Graph-Learning)
 
 ## Survey
 + Li Niu: "*Weak Novel Categories without Tears: A Survey on Weak-Shot Learning.*" arXiv preprint arXiv:2110.02651 (2021).  [[arXiv]](https://arxiv.org/pdf/2110.02651.pdf)
 
 ## Weak-Shot Classification
 **Base category: clean label; Novel category: noisy label** (weak-shot)
-+ Junjie Chen, Li Niu, Liu Liu, Liqing Zhang: "*Weak-shot Fine-grained Classification via Similarity Transfer.*" NeurIPS (2021) [[arXiv]](https://arxiv.org/pdf/2009.09197.pdf) [[code]](https://github.com/bcmi/SimTrans-Weak-Shot-Classification)
++ Junjie Chen, Li Niu, Liu Liu, Liqing Zhang: "*Weak-shot Fine-grained Classification via Similarity Transfer.*" NeurIPS (2021) [[paper]](https://proceedings.neurips.cc/paper/2021/file/3bd4017318837e92a66298c7855f4427-Paper.pdf) [[code]](https://github.com/bcmi/SimTrans-Weak-Shot-Classification)
 
 ## Weak-Shot Object Detection
 **Base category: bounding box; Novel category: image label** (chaotic names: mixed-supervised, cross-supervised, partially-supervised, weak-shot)
@@ -34,16 +40,16 @@ Knowledge Transfer.*" CVPR (2016) [[paper]](https://openaccess.thecvf.com/conten
 + Bharat Singh, Hengduo Li, Abhishek Sharma, Larry S. Davis: "*R-FCN-3000 at 30fps: Decoupling detection and classification.*" CVPR (2018) [[paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Singh_R-FCN-3000_at_30fps_CVPR_2018_paper.pdf) [[code]](https://github.com/MahyarNajibi/SNIPER)
 + Yan Li, Junge Zhang, Kaiqi Huang, Jianguo Zhang: "*Mixed Supervised Object Detection with Robust Objectness Transfer.*" T-PAMI (2018) [[paper]](https://ieeexplore.ieee.org/document/8304628) [[arXiv]](https://arxiv.org/pdf/1802.09778.pdf) 
 + Jason Kuen, Federico Perazzi, Zhe Lin, Jianming Zhang, Yap-Peng Tan: "*Scaling Object Detection by Transferring Classification Weights.*" ICCV (2019) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kuen_Scaling_Object_Detection_by_Transferring_Classification_Weights_ICCV_2019_paper.pdf) [[code]](https://github.com/xternalz/AE-WTN)
-+ Yuanyi Zhong, Jianfeng Wang, Jian Peng, Lei Zhang: "*Boosting Weakly Supervised Object Detection with Progressive Knowledge Transfer.*" ECCV (2020) [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123710613.pdf) [[arXiv]](https://arxiv.org/pdf/2007.07986.pdf) [[code]](https://github.com/mikuhatsune/wsod_transfer)
-+ Ye Guo, Yali Li, Shengjin Wang: "*CS-R-FCN: Cross-supervised Learning for Large-scale Object Detection.*" ICASSP (2020) [[arXiv]](https://arxiv.org/pdf/1905.12863.pdf)
++ Yuanyi Zhong, Jianfeng Wang, Jian Peng, Lei Zhang: "*Boosting Weakly Supervised Object Detection with Progressive Knowledge Transfer.*" ECCV (2020) [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123710613.pdf)  [[code]](https://github.com/mikuhatsune/wsod_transfer)
++ Ye Guo, Yali Li, Shengjin Wang: "*CS-R-FCN: Cross-supervised Learning for Large-scale Object Detection.*" ICASSP (2020) [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9053689)
 + Zitian Chen, Zhiqiang Shen, Jiahui Yu, Erik Learned-Miller: "*Cross-Supervised Object Detection.*" arXiv preprint arXiv:2006.15056 (2020). [[arXiv]](https://arxiv.org/pdf/2006.15056.pdf)
-+ Yan Liu, Zhijie Zhang, Li Niu, Junjie Chen, Liqing Zhang: "*Mixed Supervised Object Detection by Transferring Mask Prior and Semantic Similarity.*" NeurIPS (2021) [[paper]](https://arxiv.org/pdf/2110.14191.pdf) [[code]](https://github.com/bcmi/TraMaS-Weak-Shot-Object-Detection)
++ Yan Liu, Zhijie Zhang, Li Niu, Junjie Chen, Liqing Zhang: "*Mixed Supervised Object Detection by Transferring Mask Prior and Semantic Similarity.*" NeurIPS (2021) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2021/file/20885c72ca35d75619d6a378edea9f76-Paper.pdf) [[code]](https://github.com/bcmi/TraMaS-Weak-Shot-Object-Detection)
 
 
 ## Weak-Shot Semantic Segmentation
 **Base category: semantic mask; Novel category: image label** (weak-shot)
-+ Junjie Chen, Li Niu, Siyuan Zhou, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation via Dual Similarity Transfer.*" NeurIPS (2022) [[code]](https://github.com/bcmi/SimFormer-Weak-Shot-Semantic-Segmentation)
-+ Siyuan Zhou, Li Niu, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation by Transferring Semantic Affinity and Boundary.*" BMVC (2022) [[arXiv]](https://arxiv.org/pdf/2110.01519.pdf) 
++ Junjie Chen, Li Niu, Siyuan Zhou, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation via Dual Similarity Transfer.*" NeurIPS (2022) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/d148494b18160a30b14851655208c9c1-Paper-Conference.pdf) [[code]](https://github.com/bcmi/SimFormer-Weak-Shot-Semantic-Segmentation)
++ Siyuan Zhou, Li Niu, Jianlou Si, Chen Qian, Liqing Zhang: "*Weak-shot Semantic Segmentation by Transferring Semantic Affinity and Boundary.*" BMVC (2022) [[paper]](hhttps://pdf-files.bmvc2022.org/0211.pdf) [[code]](https://github.com/bcmi/RETAB-Weak-Shot-Semantic-Segmentation)
 
 ## Weak-Shot Instance Segmentation
 **Base category: instance mask; Novel category: bounding box** (partially-supervised)
@@ -54,8 +60,17 @@ Knowledge Transfer.*" CVPR (2016) [[paper]](https://openaccess.thecvf.com/conten
 + David Biertimpel, Sindi Shkodrani, Anil S. Baslamisli, Nora Baka: "*Prior to Segment: Foreground Cues for Weakly Annotated Classes in Partially Supervised Instance Segmentation.*" ICCV (2021) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Biertimpel_Prior_to_Segment_Foreground_Cues_for_Weakly_Annotated_Classes_in_ICCV_2021_paper.pdf) [[arXiv]](https://arxiv.org/pdf/2011.11787.pdf) [[code]](https://github.com/dbtmpl/OPMask)
 + Vighnesh Birodkar, Zhichao Lu, Siyang Li, Vivek Rathod, Jonathan Huang: "*The Surprising Impact of Mask-head Architecture on Novel Class Segmentation.*" ICCV (2021) [[paper]](http://openaccess.thecvf.com/content/ICCV2021/papers/Birodkar_The_Surprising_Impact_of_Mask-Head_Architecture_on_Novel_Class_Segmentation_ICCV_2021_paper.pdf) [[code]](https://google.github.io/deepmac/#code)
 
+## Weak-Shot Gait Recognition
+**Base category: clean ID; Novel category: noisy ID** (weak-shot)
++ Saihui Hou, Xuecai Hu, Chunshui Cao, Xu Liu, Yongzhen Huang: "*Adaptive Knowledge Transfer for Weak-Shot Gait Recognition.*" IEEE Transactions on Information Forensics and Security 19 (2024): 7290-7303. [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10598205)
 
+## Weak-Shot Pose Estimation
+**Base category: keypoints; Novel category: unlabeled** (weak-shot)
++ Junjie Chen, Zeyu Luo, Zezheng Liu, Wenhui Jiang, Li Niu, Yuming Fang: "*Weak-shot keypoint estimation via keyness and correspondence transfer.*" NeurIPS (2026) [[pdf]](https://proceedings.neurips.cc/paper_files/paper/2025/file/6cda6dbd39943eba03aebb50005f2f5c-Paper-Conference.pdf)
 
+## Weak-Shot Graph Learning
+**Base category: clean label; Novel category: noisy label** (cross-supervised, weak-shot)
++ Xiangchi Yuan, Yijun Tian, Chunhui Zhang, Yanfang Ye, Nitesh V. Chawla, Chuxu Zhang: "*Graph cross supervised learning via generalized knowledge.*" SIGKDD (2024) [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3637528.3671830) [[code]](https://github.com/xiangchi-yuan/Graph-Cross-Supervised-Learning)
 
 
 
